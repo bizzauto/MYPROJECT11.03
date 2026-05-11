@@ -8,7 +8,6 @@ COPY package*.json ./
 COPY prisma ./prisma/
 RUN npm ci && npx prisma generate
 
-  HEAD
 COPY . .
 RUN npm run build
 
