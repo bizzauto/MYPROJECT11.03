@@ -40,4 +40,4 @@ RUN npm install -g tsx
 EXPOSE 4000
 
 CMD ["sh", "-c", "npx prisma migrate deploy || true && tsx src/server/index.ts"]
- e78136192bdb379dd4d5b6bda7e67dc6b22d7257
+
