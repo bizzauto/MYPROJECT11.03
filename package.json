@@ -46,7 +46,7 @@
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "react-router-dom": "^7.13.2"
-    // ... इतर सर्व dependencies जशा आहेत तशा ठेवा
+   
   },
   "devDependencies": {
     "@types/node": "^22.19.15",
@@ -62,7 +62,7 @@
     "vite-plugin-singlefile": "2.3.0"
 
     "vite": "^7.3.2"
-    // ... इतर सर्व devDependencies जशा आहेत तशा ठेवा
+  
   },
   "prisma": {
     "seed": "npx ts-node prisma/seed.ts"
