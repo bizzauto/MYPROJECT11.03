@@ -7,11 +7,11 @@
     "dev": "vite",
     "build": "npx prisma generate && vite build && tsc -p tsconfig.server.json"
     "build:client": "vite build",
-<<<<<<< HEAD
+
     "build:server": "node scripts/build-server.js",
-=======
+
     "build:server": "tsc -p tsconfig.server.json", 
->>>>>>> e78136192bdb379dd4d5b6bda7e67dc6b22d7257
+
     "preview": "vite preview",
     "start": "npx prisma generate && (npx prisma db push --accept-data-loss 2>/dev/null || true) && node dist/server/index.js",
     "server": "tsx watch src/server/index.ts",
@@ -52,19 +52,20 @@
     "@types/node": "^22.19.15",
     "@types/react": "19.2.7",
     "@types/react-dom": "19.2.3",
-<<<<<<< HEAD
+
+    
     "@vitejs/plugin-react": "5.1.1",
     "esbuild": "^0.28.0",
     "tailwindcss": "4.1.17",
     "typescript": "5.9.3",
     "vite": "^7.3.2",
     "vite-plugin-singlefile": "2.3.0"
-=======
+
     "vite": "^7.3.2"
     // ... इतर सर्व devDependencies जशा आहेत तशा ठेवा
   },
   "prisma": {
     "seed": "npx ts-node prisma/seed.ts"
->>>>>>> e78136192bdb379dd4d5b6bda7e67dc6b22d7257
+
   }
 }
