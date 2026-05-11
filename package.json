@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npx prisma generate && vite build && tsc -p tsconfig.server.json"
+    "build": "npx prisma generate && vite build && tsc -p tsconfig.server.json",
     "build:client": "vite build",
 
     "build:server": "node scripts/build-server.js",
